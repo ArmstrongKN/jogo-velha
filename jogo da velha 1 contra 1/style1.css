@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(157, 188, 245);
+    height: 100vh;
+    background-image: #f7f7f7;
+   
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+     
+ h1{
+      
+    text-align: center;
+    color: brown;
+    font-family: cursive;
+    text-decoration: underline;
+    
+ }
+ 
+ 
+ .container{
+    justify-content: center;
+    text-align:center ;
+    align-items: center;
+ }
+
+ .item{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    justify-content: center;
+ 
+ }
+
+ input{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 80px;
+    background: white;
+ 
+    float: left;
+    
+    
+ }
+
+ #cxteste{
+   width: 500px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 80px;
+    background: white;
+    border: solid 2px black;
+    float: left;
+ }
+#j1{
+   border-right: 1px solid #000;
+   border-bottom: 1px solid #000;
+   border-width: 1px solid #000;
+}
+#j2{
+   border-right: 1px solid #000;
+   border-left: 1px solid #000;
+   border-bottom: 1px solid #000;
+}
+#j3{
+   border-left: 1px solid #000;
+   border-bottom: 1px solid #000;
+}
+#j4{
+   border-right: 1px solid #000;
+   border-top: 1px solid #000;
+   border-bottom: 1px solid #000;
+}
+#j5{
+   border: 1px solid #000;
+}
+#j6{
+   border-left: 1px solid #000;
+   border-top: 1px solid #000;
+   border-bottom: 1px solid #000;
+}
+#j7{
+   border-right: 1px solid #000;
+   border-top: 1px solid #000;
+}
+#j8{
+   border-right: 1px solid #000;
+   border-left:1px solid #000 ;
+   border-top: 1px solid #000;
+}
+#j9{
+   border-left: 1px solid #000;
+   border-top: 1px solid #000;
+}
+     
+
+ 
+ 
+ 
